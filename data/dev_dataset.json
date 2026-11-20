@@ -1,0 +1,217 @@
+[
+  {
+    "id": "DEV-PL-01",
+    "text": "Water tap in washroom 204 is leaking continuously.",
+    "language": "English",
+    "expectedDepartment": "Plumbing",
+    "difficulty": "clear"
+  },
+  {
+    "id": "DEV-PL-02",
+    "text": "BH-3 2nd floor bathroom flush kaam nahi kar raha.",
+    "language": "Hinglish",
+    "expectedDepartment": "Plumbing",
+    "difficulty": "clear"
+  },
+  {
+    "id": "DEV-PL-03",
+    "text": "Nalke cho paani lagataar tapak reha hai band nahi hunda.",
+    "language": "Romanised Punjabi",
+    "expectedDepartment": "Plumbing",
+    "difficulty": "clear"
+  },
+  {
+    "id": "DEV-PL-04",
+    "text": "Geyser is not giving hot water in winter.",
+    "language": "English",
+    "expectedDepartment": "Plumbing",
+    "difficulty": "ambiguous"
+  },
+  {
+    "id": "DEV-PL-05",
+    "text": "Washroom commode choke ho gaya hai paani overflow ho raha hai.",
+    "language": "Hinglish",
+    "expectedDepartment": "Plumbing",
+    "difficulty": "clear"
+  },
+
+  {
+    "id": "DEV-EL-01",
+    "text": "The tube light in room 312 is flickering rapidly.",
+    "language": "English",
+    "expectedDepartment": "Electrical",
+    "difficulty": "clear"
+  },
+  {
+    "id": "DEV-EL-02",
+    "text": "Block 34 room 405 mein ceiling fan bohot slow chal raha hai.",
+    "language": "Hinglish",
+    "expectedDepartment": "Electrical",
+    "difficulty": "clear"
+  },
+  {
+    "id": "DEV-EL-03",
+    "text": "Switchboard cho current aunda hai plug launde hi spark hunda.",
+    "language": "Romanised Punjabi",
+    "expectedDepartment": "Electrical",
+    "difficulty": "clear"
+  },
+  {
+    "id": "DEV-EL-04",
+    "text": "AC remote is working but the unit is not cooling at all.",
+    "language": "English",
+    "expectedDepartment": "Electrical",
+    "difficulty": "clear"
+  },
+  {
+    "id": "DEV-EL-05",
+    "text": "Pankha bohot awaz kar raha hai lagta hai gir jayega.",
+    "language": "Hinglish",
+    "expectedDepartment": "Electrical",
+    "difficulty": "clear"
+  },
+
+  {
+    "id": "DEV-WF-01",
+    "text": "Hostel Wi-Fi network is showing connected but no internet access.",
+    "language": "English",
+    "expectedDepartment": "Wi-Fi",
+    "difficulty": "clear"
+  },
+  {
+    "id": "DEV-WF-02",
+    "text": "BH-2 floor 3 pe LPU Wi-Fi login portal authenticate nahi ho raha.",
+    "language": "Hinglish",
+    "expectedDepartment": "Wi-Fi",
+    "difficulty": "clear"
+  },
+  {
+    "id": "DEV-WF-03",
+    "text": "Hostel de kamre vich Wi-Fi range bilkul vi nahi aundi.",
+    "language": "Romanised Punjabi",
+    "expectedDepartment": "Wi-Fi",
+    "difficulty": "clear"
+  },
+  {
+    "id": "DEV-WF-04",
+    "text": "Internet speed is below 100 kbps, unable to open LMS.",
+    "language": "English",
+    "expectedDepartment": "Wi-Fi",
+    "difficulty": "clear"
+  },
+  {
+    "id": "DEV-WF-05",
+    "text": "Router ki red light blink kar rahi hai net poora band hai.",
+    "language": "Hinglish",
+    "expectedDepartment": "Wi-Fi",
+    "difficulty": "clear"
+  },
+
+  {
+    "id": "DEV-MS-01",
+    "text": "Mess food quality in dining hall 4 was unacceptable today.",
+    "language": "English",
+    "expectedDepartment": "Mess",
+    "difficulty": "clear"
+  },
+  {
+    "id": "DEV-MS-02",
+    "text": "Aaj mess ki dal mein cockroach nikla plate check karwayi jaye.",
+    "language": "Hinglish",
+    "expectedDepartment": "Mess",
+    "difficulty": "clear"
+  },
+  {
+    "id": "DEV-MS-03",
+    "text": "Rotiyaan poori tarah kachiyan si te sabzi ch kankad si.",
+    "language": "Romanised Punjabi",
+    "expectedDepartment": "Mess",
+    "difficulty": "clear"
+  },
+  {
+    "id": "DEV-MS-04",
+    "text": "Drinking water cooler in mess area has a foul smell.",
+    "language": "English",
+    "expectedDepartment": "Mess",
+    "difficulty": "ambiguous"
+  },
+  {
+    "id": "DEV-MS-05",
+    "text": "Mess staff badtameezi se baat karte hain plates gandi hain.",
+    "language": "Hinglish",
+    "expectedDepartment": "Mess",
+    "difficulty": "clear"
+  },
+
+  {
+    "id": "DEV-AC-01",
+    "text": "Projector HDMI cable in Block 38 room 201 is missing.",
+    "language": "English",
+    "expectedDepartment": "Academic",
+    "difficulty": "clear"
+  },
+  {
+    "id": "DEV-AC-02",
+    "text": "Lecture hall ka audio mic kharab hai teacher ki awaz nahi aa rahi.",
+    "language": "Hinglish",
+    "expectedDepartment": "Academic",
+    "difficulty": "clear"
+  },
+  {
+    "id": "DEV-AC-03",
+    "text": "Lab de computers te software install nahi hoya practical rukya.",
+    "language": "Romanised Punjabi",
+    "expectedDepartment": "Academic",
+    "difficulty": "clear"
+  },
+  {
+    "id": "DEV-AC-04",
+    "text": "Timetable clash between two mandatory elective courses.",
+    "language": "English",
+    "expectedDepartment": "Academic",
+    "difficulty": "clear"
+  },
+  {
+    "id": "DEV-AC-05",
+    "text": "Classroom mein bench toota hua hai baithne ki jagah nahi hai.",
+    "language": "Hinglish",
+    "expectedDepartment": "Academic",
+    "difficulty": "ambiguous"
+  },
+
+  {
+    "id": "DEV-OT-01",
+    "text": "Stray dogs are wandering near the hostel entrance creating panic.",
+    "language": "English",
+    "expectedDepartment": "Other",
+    "difficulty": "clear"
+  },
+  {
+    "id": "DEV-OT-02",
+    "text": "Corridor dustbin overflow ho raha hai 2 din se kachra nahi utha.",
+    "language": "Hinglish",
+    "expectedDepartment": "Other",
+    "difficulty": "clear"
+  },
+  {
+    "id": "DEV-OT-03",
+    "text": "Hostel di lift kharab hai 4th floor tak paidal jaana painda.",
+    "language": "Romanised Punjabi",
+    "expectedDepartment": "Other",
+    "difficulty": "clear"
+  },
+  {
+    "id": "DEV-OT-04",
+    "text": "Campus shuttle bus did not arrive on schedule at main gate.",
+    "language": "English",
+    "expectedDepartment": "Other",
+    "difficulty": "clear"
+  },
+  {
+    "id": "DEV-OT-05",
+    "text": "Raat ko 1 baje hostel wing mein bohot tez loud music chalate hain.",
+    "language": "Hinglish",
+    "expectedDepartment": "Other",
+    "difficulty": "clear"
+  }
+]

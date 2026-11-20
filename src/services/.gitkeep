@@ -1,0 +1,2 @@
+// services/ — API calls and external service integrations
+// e.g. complaintsService.js, authService.js, geminiService.js

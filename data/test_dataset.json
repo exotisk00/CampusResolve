@@ -1,0 +1,427 @@
+[
+  {
+    "id": "TEST-PL-01",
+    "text": "The flush valve in Block 14 washroom is stuck and continuously running.",
+    "language": "English",
+    "expectedDepartment": "Plumbing",
+    "type": "clear"
+  },
+  {
+    "id": "TEST-PL-02",
+    "text": "BH-1 room 210 ke bathroom mein paani ka pressure bohot slow hai.",
+    "language": "Hinglish",
+    "expectedDepartment": "Plumbing",
+    "type": "clear"
+  },
+  {
+    "id": "TEST-PL-03",
+    "text": "Sade floor de washroom vich nalka toota hoya paani charo passe phail reha.",
+    "language": "Romanised Punjabi",
+    "expectedDepartment": "Plumbing",
+    "type": "clear"
+  },
+  {
+    "id": "TEST-PL-04",
+    "text": "Drain pipe in the 3rd floor sink is blocked and dirty water is backing up.",
+    "language": "English",
+    "expectedDepartment": "Plumbing",
+    "type": "clear"
+  },
+  {
+    "id": "TEST-PL-05",
+    "text": "Geyser on karne ke baad bhi nahane ka paani thanda hi aa raha hai.",
+    "language": "Hinglish",
+    "expectedDepartment": "Plumbing",
+    "type": "ambiguous"
+  },
+  {
+    "id": "TEST-PL-06",
+    "text": "Tanki cho paani muk gya hai subah ton nahon lai paani nahi mil reha.",
+    "language": "Romanised Punjabi",
+    "expectedDepartment": "Plumbing",
+    "type": "clear"
+  },
+  {
+    "id": "TEST-PL-07",
+    "text": "There is a severe foul smell coming from the floor drain near corridor water cooler.",
+    "language": "English",
+    "expectedDepartment": "Plumbing",
+    "type": "ambiguous"
+  },
+  {
+    "id": "TEST-PL-08",
+    "text": "Washroom ki ceiling se paani tapak raha hai lagta hai upar pipe burst hai.",
+    "language": "Hinglish",
+    "expectedDepartment": "Plumbing",
+    "type": "clear"
+  },
+  {
+    "id": "TEST-PL-09",
+    "text": "RO water purifier in GH-2 ground floor is dispensing muddy brownish water.",
+    "language": "English",
+    "expectedDepartment": "Plumbing",
+    "type": "ambiguous"
+  },
+  {
+    "id": "TEST-PL-10",
+    "text": "Toilet seat di pipe leak kardi hai floor pura gilla ho gya.",
+    "language": "Romanised Punjabi",
+    "expectedDepartment": "Plumbing",
+    "type": "clear"
+  },
+
+  {
+    "id": "TEST-EL-01",
+    "text": "Power socket beside bed 2 in BH-4 room 118 has burnt marks and sparks when plugged.",
+    "language": "English",
+    "expectedDepartment": "Electrical",
+    "type": "clear"
+  },
+  {
+    "id": "TEST-EL-02",
+    "text": "Room ki tubelight flicker karte karte band ho gayi and switch garam ho raha hai.",
+    "language": "Hinglish",
+    "expectedDepartment": "Electrical",
+    "type": "clear"
+  },
+  {
+    "id": "TEST-EL-03",
+    "text": "Pankhe di speed bilkul khatam ho gayi hai regulator ghumane te vi kuch nahi hunda.",
+    "language": "Romanised Punjabi",
+    "expectedDepartment": "Electrical",
+    "type": "clear"
+  },
+  {
+    "id": "TEST-EL-04",
+    "text": "Classroom 34-208 air conditioner is blowing warm air instead of cooling.",
+    "language": "English",
+    "expectedDepartment": "Electrical",
+    "type": "clear"
+  },
+  {
+    "id": "TEST-EL-05",
+    "text": "Hostel corridor mein main MCB trip ho gaya hai poore wing ki bijli band hai.",
+    "language": "Hinglish",
+    "expectedDepartment": "Electrical",
+    "type": "clear"
+  },
+  {
+    "id": "TEST-EL-06",
+    "text": "Switchboard cho dhuwan nikal reha hai please jaldi electrician bhejo.",
+    "language": "Romanised Punjabi",
+    "expectedDepartment": "Electrical",
+    "type": "clear"
+  },
+  {
+    "id": "TEST-EL-07",
+    "text": "Voltage fluctuations are causing laptop chargers to reboot repeatedly in Block 32.",
+    "language": "English",
+    "expectedDepartment": "Electrical",
+    "type": "clear"
+  },
+  {
+    "id": "TEST-EL-08",
+    "text": "Cooler motor se current jhatka lag raha hai switchboard touch karte waqt.",
+    "language": "Hinglish",
+    "expectedDepartment": "Electrical",
+    "type": "clear"
+  },
+  {
+    "id": "TEST-EL-09",
+    "text": "Geyser da power plug melt ho gaya hai board te taar sarr gayi.",
+    "language": "Romanised Punjabi",
+    "expectedDepartment": "Electrical",
+    "type": "ambiguous"
+  },
+  {
+    "id": "TEST-EL-10",
+    "text": "Emergency exit staircase light bulb has been fused for over a week.",
+    "language": "English",
+    "expectedDepartment": "Electrical",
+    "type": "clear"
+  },
+
+  {
+    "id": "TEST-WF-01",
+    "text": "Wi-Fi access point in BH-6 second floor corridor is repeatedly rebooting.",
+    "language": "English",
+    "expectedDepartment": "Wi-Fi",
+    "type": "clear"
+  },
+  {
+    "id": "TEST-WF-02",
+    "text": "Hostel room mein Wi-Fi show ho raha hai but login page open nahi hota.",
+    "language": "Hinglish",
+    "expectedDepartment": "Wi-Fi",
+    "type": "clear"
+  },
+  {
+    "id": "TEST-WF-03",
+    "text": "Net di speed aini ghatiya hai ki assignments upload vi nahi ho rahiyan.",
+    "language": "Romanised Punjabi",
+    "expectedDepartment": "Wi-Fi",
+    "type": "clear"
+  },
+  {
+    "id": "TEST-WF-04",
+    "text": "Frequent packet drops and high latency during online lab evaluations.",
+    "language": "English",
+    "expectedDepartment": "Wi-Fi",
+    "type": "ambiguous"
+  },
+  {
+    "id": "TEST-WF-05",
+    "text": "LPU Wireless portal pe roll number authentication error 502 dikha raha hai.",
+    "language": "Hinglish",
+    "expectedDepartment": "Wi-Fi",
+    "type": "clear"
+  },
+  {
+    "id": "TEST-WF-06",
+    "text": "Router te red light jagg rahi hai internet connection tut gaya kal da.",
+    "language": "Romanised Punjabi",
+    "expectedDepartment": "Wi-Fi",
+    "type": "clear"
+  },
+  {
+    "id": "TEST-WF-07",
+    "text": "Unable to connect to university 5GHz band in Central Library reading hall.",
+    "language": "English",
+    "expectedDepartment": "Wi-Fi",
+    "type": "clear"
+  },
+  {
+    "id": "TEST-WF-08",
+    "text": "Wi-Fi range room ke corner bed tak bilkul nahi aati hotspot use karna pad raha hai.",
+    "language": "Hinglish",
+    "expectedDepartment": "Wi-Fi",
+    "type": "clear"
+  },
+  {
+    "id": "TEST-WF-09",
+    "text": "Ethernet LAN port in lab 38-302 is mechanically loose and giving no link light.",
+    "language": "English",
+    "expectedDepartment": "Wi-Fi",
+    "type": "ambiguous"
+  },
+  {
+    "id": "TEST-WF-10",
+    "text": "Hostel de pichle kamreya ch signal drop ho janda hai baar baar disconnect hunda.",
+    "language": "Romanised Punjabi",
+    "expectedDepartment": "Wi-Fi",
+    "type": "clear"
+  },
+
+  {
+    "id": "TEST-MS-01",
+    "text": "Found a dead fly inside the sambar container at Mess 2 breakfast service.",
+    "language": "English",
+    "expectedDepartment": "Mess",
+    "type": "clear"
+  },
+  {
+    "id": "TEST-MS-02",
+    "text": "Dinner mein jo rotian di gayi thi wo bilkul kachi aur hard thi chabai nahi ja rahi.",
+    "language": "Hinglish",
+    "expectedDepartment": "Mess",
+    "type": "clear"
+  },
+  {
+    "id": "TEST-MS-03",
+    "text": "Khaane da swad bohot bekaar si daal vich paani aivein paya jiven soup hove.",
+    "language": "Romanised Punjabi",
+    "expectedDepartment": "Mess",
+    "type": "clear"
+  },
+  {
+    "id": "TEST-MS-04",
+    "text": "Dining plates and drinking glasses are greasy and not properly sanitized in mess hall 5.",
+    "language": "English",
+    "expectedDepartment": "Mess",
+    "type": "clear"
+  },
+  {
+    "id": "TEST-MS-05",
+    "text": "Mess contractor expired bread packets use kar raha tha breakfast counter pe.",
+    "language": "Hinglish",
+    "expectedDepartment": "Mess",
+    "type": "clear"
+  },
+  {
+    "id": "TEST-MS-06",
+    "text": "Mess staff da ravaiyya theek nahi hai student naal ladayi karde ne jab extra sabzi mango.",
+    "language": "Romanised Punjabi",
+    "expectedDepartment": "Mess",
+    "type": "ambiguous"
+  },
+  {
+    "id": "TEST-MS-07",
+    "text": "Several students fell sick with stomach ache after eating Wednesday hostel dinner.",
+    "language": "English",
+    "expectedDepartment": "Mess",
+    "type": "clear"
+  },
+  {
+    "id": "TEST-MS-08",
+    "text": "Sabzi mein se baal nikla aur complain karne par staff ne plate replace karne se mana kiya.",
+    "language": "Hinglish",
+    "expectedDepartment": "Mess",
+    "type": "clear"
+  },
+  {
+    "id": "TEST-MS-09",
+    "text": "Rice provided during lunch was burnt with strong bitter charcoal smell.",
+    "language": "English",
+    "expectedDepartment": "Mess",
+    "type": "clear"
+  },
+  {
+    "id": "TEST-MS-10",
+    "text": "Dining hall di table safai nahi hundi kide makode ghumde rehnde ne.",
+    "language": "Romanised Punjabi",
+    "expectedDepartment": "Mess",
+    "type": "ambiguous"
+  },
+
+  {
+    "id": "TEST-AC-01",
+    "text": "The overhead projector in room 34-104 has a distorted yellow tint on screen.",
+    "language": "English",
+    "expectedDepartment": "Academic",
+    "type": "clear"
+  },
+  {
+    "id": "TEST-AC-02",
+    "text": "Lecture hall 38-301 ka microphone battery khatam hai awaz bilkul nahi aa rahi piche.",
+    "language": "Hinglish",
+    "expectedDepartment": "Academic",
+    "type": "ambiguous"
+  },
+  {
+    "id": "TEST-AC-03",
+    "text": "Professor ne attendence portal te absent mark kitta jadki main class ch hazir si.",
+    "language": "Romanised Punjabi",
+    "expectedDepartment": "Academic",
+    "type": "clear"
+  },
+  {
+    "id": "TEST-AC-04",
+    "text": "Computer systems in software lab 4 are lacking compiler licenses for CSE practical.",
+    "language": "English",
+    "expectedDepartment": "Academic",
+    "type": "clear"
+  },
+  {
+    "id": "TEST-AC-05",
+    "text": "Classroom mein podium ka speaker blast ho raha hai continuous whistling sound ke sath.",
+    "language": "Hinglish",
+    "expectedDepartment": "Academic",
+    "type": "ambiguous"
+  },
+  {
+    "id": "TEST-AC-06",
+    "text": "Lab de bench te chair tooti hai practical karne vele khade rehna painda.",
+    "language": "Romanised Punjabi",
+    "expectedDepartment": "Academic",
+    "type": "ambiguous"
+  },
+  {
+    "id": "TEST-AC-07",
+    "text": "Final semester timetable has overlapping exam slots for core data structures course.",
+    "language": "English",
+    "expectedDepartment": "Academic",
+    "type": "clear"
+  },
+  {
+    "id": "TEST-AC-08",
+    "text": "Teacher class lene nahi aaye bina notice diye students 1 ghante se wait kar rahe hain.",
+    "language": "Hinglish",
+    "expectedDepartment": "Academic",
+    "type": "clear"
+  },
+  {
+    "id": "TEST-AC-09",
+    "text": "Whiteboard markers are all dried out across block 34 floor 3 classrooms.",
+    "language": "English",
+    "expectedDepartment": "Academic",
+    "type": "clear"
+  },
+  {
+    "id": "TEST-AC-10",
+    "text": "Internal assessment marks portal te galat update hoye ne teacher kehnde HOD kol jao.",
+    "language": "Romanised Punjabi",
+    "expectedDepartment": "Academic",
+    "type": "clear"
+  },
+
+  {
+    "id": "TEST-OT-01",
+    "text": "Security guard at gate 4 was excessively rude and refused entry despite showing valid LPU ID.",
+    "language": "English",
+    "expectedDepartment": "Other",
+    "type": "clear"
+  },
+  {
+    "id": "TEST-OT-02",
+    "text": "BH-7 ke corridor mein kooda phaila hua hai sweeper subah se nahi aaya.",
+    "language": "Hinglish",
+    "expectedDepartment": "Other",
+    "type": "clear"
+  },
+  {
+    "id": "TEST-OT-03",
+    "text": "Hostel di lift 2nd floor te phas gayi si emergency button vi kaam nahi kar reha.",
+    "language": "Romanised Punjabi",
+    "expectedDepartment": "Other",
+    "type": "ambiguous"
+  },
+  {
+    "id": "TEST-OT-04",
+    "text": "A troop of monkeys entered the hostel balcony and destroyed students washed clothes.",
+    "language": "English",
+    "expectedDepartment": "Other",
+    "type": "clear"
+  },
+  {
+    "id": "TEST-OT-05",
+    "text": "Uni-Mall ke ground floor washroom ke bahar dustbin jal gaya kachre ka dher laga hai.",
+    "language": "Hinglish",
+    "expectedDepartment": "Other",
+    "type": "ambiguous"
+  },
+  {
+    "id": "TEST-OT-06",
+    "text": "Bicycle parking stand kol cycle da tala tod ke choori karn di koshish hoyi.",
+    "language": "Romanised Punjabi",
+    "expectedDepartment": "Other",
+    "type": "clear"
+  },
+  {
+    "id": "TEST-OT-07",
+    "text": "Campus shuttle buses are overcrowded during morning 8:30 AM peak transition hours.",
+    "language": "English",
+    "expectedDepartment": "Other",
+    "type": "clear"
+  },
+  {
+    "id": "TEST-OT-08",
+    "text": "Lost my university identity card somewhere near Central Library lawn yesterday evening.",
+    "language": "English",
+    "expectedDepartment": "Other",
+    "type": "clear"
+  },
+  {
+    "id": "TEST-OT-09",
+    "text": "Hostel laundry service returned clothes stained and torn two shirts missing.",
+    "language": "English",
+    "expectedDepartment": "Other",
+    "type": "clear"
+  },
+  {
+    "id": "TEST-OT-10",
+    "text": "Raat nu 2 baje wing de munde corridor ch halla gulla karde ne neend kharab hundi hai.",
+    "language": "Romanised Punjabi",
+    "expectedDepartment": "Other",
+    "type": "clear"
+  }
+]

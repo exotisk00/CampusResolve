@@ -1,0 +1,3 @@
+// layouts/ — page wrapper layouts
+// e.g. DashboardLayout, AuthLayout, PublicLayout
+// Import from here: import DashboardLayout from '@/layouts/DashboardLayout';
