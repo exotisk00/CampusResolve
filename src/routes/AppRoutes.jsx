@@ -41,6 +41,22 @@ function AppRoutes() {
         }
       />
       <Route
+        path="/track-complaint"
+        element={
+          <ProtectedRoute>
+            <StudentDashboardPage />
+          </ProtectedRoute>
+        }
+      />
+      <Route
+        path="/track"
+        element={
+          <ProtectedRoute>
+            <StudentDashboardPage />
+          </ProtectedRoute>
+        }
+      />
+      <Route
         path="/submit-complaint"
         element={
           <ProtectedRoute>

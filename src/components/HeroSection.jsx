@@ -305,15 +305,15 @@ export default function HeroSection() {
                 Submit a Complaint
               </Link>
 
-              <button
-                type="button"
+              <Link
+                to="/track-complaint"
                 className="inline-flex items-center justify-center gap-2 px-6 py-3.5 rounded-xl font-semibold text-content-primary text-[0.9375rem] bg-white border border-border-ui-default transition-all duration-150 hover:bg-slate-50 hover:border-slate-400"
                 style={{ minWidth: '165px' }}
               >
                 <Search className="w-4 h-4 text-content-secondary" aria-hidden="true" />
                 Track Complaint
                 <ArrowRight className="w-3.5 h-3.5 ml-1 text-content-muted" aria-hidden="true" />
-              </button>
+              </Link>
             </div>
 
             {/* Clear student & staff confirmation */}

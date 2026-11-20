@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import { GraduationCap, Mail, Phone, MapPin } from 'lucide-react';
 
 const LPU_FOOTER_NAV = {
@@ -17,10 +18,10 @@ const LPU_FOOTER_NAV = {
     { label: 'Central Library & Labs', href: '#' },
   ],
   'Student Support': [
-    { label: 'Submit a Complaint', href: '#' },
-    { label: 'Track Existing Ticket', href: '#' },
-    { label: 'Urgent Hostel Assistance', href: '#' },
-    { label: 'Grievance Guidelines', href: '#' },
+    { label: 'Submit a Complaint', href: '/submit-complaint' },
+    { label: 'Track Existing Ticket', href: '/track-complaint' },
+    { label: 'Urgent Hostel Assistance', href: '#support' },
+    { label: 'Grievance Guidelines', href: '#how-it-works' },
   ],
 };
 
@@ -88,12 +89,21 @@ export default function Footer() {
               <ul className="flex flex-col gap-2.5">
                 {links.map(({ label, href }) => (
                   <li key={label}>
-                    <a
-                      href={href}
-                      className="text-[0.875rem] text-content-secondary hover:text-brand-blue transition-colors duration-150"
-                    >
-                      {label}
-                    </a>
+                    {href.startsWith('#') ? (
+                      <a
+                        href={href}
+                        className="text-[0.875rem] text-content-secondary hover:text-brand-blue transition-colors duration-150"
+                      >
+                        {label}
+                      </a>
+                    ) : (
+                      <Link
+                        to={href}
+                        className="text-[0.875rem] text-content-secondary hover:text-brand-blue transition-colors duration-150"
+                      >
+                        {label}
+                      </Link>
+                    )}
                   </li>
                 ))}
               </ul>
